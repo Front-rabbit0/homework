@@ -1,0 +1,36 @@
+body {
+    font-size: 20px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.block, .inline {
+    background: #6a78f2;
+}
+
+/*  */
+
+.block {
+    /* border: 10px groove #10f769;
+    border-top: 15px double #000;
+
+    border-width: 10px;
+    border-style: dotted;
+    border-color: #ff82bc;
+
+    border-bottom-color: #ffeb11; */
+
+    /* border: 5px solid #000; */
+    /* border-radius: 20px; */
+    /* border-top-right-radius: 40px; */
+    /* border-radius: 0 0 0 0; */
+
+    outline: 5px solid #000;
+}
+
+.img {
+    border-radius: 40px;
+    border: 6px solid #ff3a96;
+}

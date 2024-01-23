@@ -1,0 +1,37 @@
+/* .some-text {
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: justify;
+    font-weight: 700;
+} */
+
+.first-text {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.second-text {
+    text-decoration: line-through;
+    text-align-last: left;
+}
+
+.third-text {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.fourth-text {
+    word-spacing: 30px;
+    text-shadow: 1px 0px 5px #8607ee;
+    text-decoration: overline wavy;
+}
+
+.fifth-text {
+    letter-spacing: 5px;
+    text-decoration: double underline;
+}
