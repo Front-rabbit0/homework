@@ -1,0 +1,42 @@
+body {
+    font-size: 20px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.block,
+.inline {
+    background: #6a78f2;
+}
+
+.block {
+    padding: 30px;
+    margin: 50px;
+}
+
+/*  */
+
+.elements {
+    background: #78b2fe;
+    border: 1px solid #000;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+    height: 600px;
+    overflow: scroll;
+}
+
+.el {
+    display: inline-block;
+    width: 300px;
+
+    border: 1px solid #000;
+    border-radius: 30px;
+    background: #df4bef;
+    box-shadow: inset 5px 3px 20px 0px #000;
+
+    margin: 5px;
+    padding: 25px 20px;
+}
