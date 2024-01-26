@@ -1,0 +1,89 @@
+body {
+    background-color: #1d1d1f;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 2rem;
+}
+
+.wrapper {
+    padding: 50px;
+    min-height: 100%;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.link {
+    display: block;
+    background-color: #555;
+    border-radius: 2em;
+    padding: 2em;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+}
+
+.input {
+    display: block;
+    width: 100%;
+    padding: 2em;
+    margin-bottom: 100px;
+    font-size: inherit;
+}
+
+.button {
+    display: block;
+    background-color: #555;
+    border-radius: 2em;
+    padding: 2em;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: inherit;
+    color: inherit;
+    margin-bottom: 100px;
+    width: 100%;
+}
+
+/* ======================================================== */
+
+.link:hover {
+    background: #08c0d0;
+}
+
+.link:active {
+    background: #fd29e1;
+}
+
+.block__title:hover {
+    color: red;
+}
+
+.button:active {
+    background: #fd29e1;
+}
+
+.input:focus {
+    box-shadow: 0 0 10px 10px #41f638;
+}
+
+.list__item:first-child {
+    color: #41f638;
+}
+
+.list__item:last-child {
+    color: #6767eb;
+}
+
+.list__item:nth-child(odd) {
+    color: #f8df4f;
+}
+
+.list__item:nth-child(even) {
+    color: #9c14fd;
+}
+
+.list__other:nth-child(4) {
+    background: green;
+}

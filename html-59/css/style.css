@@ -1,0 +1,64 @@
+body {
+    background-color: #1e1e20;
+}
+
+.wrapper {
+    padding: 50px;
+    height: 100%;
+}
+
+.container {
+    position: relative;
+    height: 200px;
+    background-color: #444;
+}
+
+.block {
+    background-color: #fff;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+}
+
+/* ========================================================= */
+
+.block {
+    animation: move-block 3s .2s infinite alternate linear,
+        color-block 3s .2s infinite alternate linear;
+
+    /* animation-name: ; */
+    /* animation-duration: ; */
+    /* animation-iteration-count: infinite; */
+    /* animation-direction: alternate; */
+    /* animation-delay: 2s; */
+    /* animation-fill-mode: forwards; */
+    /* animation-timing-function: linear; */
+}
+
+@keyframes move-block {
+    0% {
+        left: 0;
+    }
+
+    50% {
+        border-radius: 50%;
+    }
+
+    100% {
+        left: calc(100% - 200px);
+    }
+}
+
+@keyframes color-block {
+    0% {
+        background-color: #fa7171;
+    }
+
+    50% {
+        background-color: #d6f052;
+    }
+
+    100% {
+        background-color: #5f93e1;
+    }
+}

@@ -1,0 +1,35 @@
+body {
+    background: #262628;
+}
+
+p {
+    color: #fff;
+    font-size: 50px;
+}
+
+/* =================================================== */
+
+.rectangle {
+    position: fixed;
+    background: #fff;
+
+    left: 50%;
+    right: 50px;
+    bottom: 100px;
+
+    min-height: 100px;
+
+    border-radius: 10px;
+}
+
+.circle {
+    position: absolute;
+    background: #ed3535;
+
+    bottom: 50%;
+    left: 100px;
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
